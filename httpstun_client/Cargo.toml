@@ -1,0 +1,18 @@
+[package]
+name = "httpstun_client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.48", features = ["derive"] }
+reqwest = "0.12.23"
+reqwest-websocket = "0.5.1"
+tappers = { version =  "0.4.2", features = ["tokio"] }
+tokio = { version = "1.47.1", features = ["full"] }
+toml = "0.9.7"
+env_logger = "0.11.8"
+serde = { version = "1.0.226", features = ["derive"] }
+rpassword = "7.4.0"
+futures = "0.3.31"
+futures-util = "0.3.31"
+log = "0.4.22"

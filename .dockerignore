@@ -1,0 +1,7 @@
+target
+.git
+**/target
+**/.git
+.DS_Store
+*.log
+build-cache

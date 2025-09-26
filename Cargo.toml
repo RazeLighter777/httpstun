@@ -1,0 +1,3 @@
+[workspace]
+members = ["httpstun_client","httpstun_server"]
+resolver = "3"

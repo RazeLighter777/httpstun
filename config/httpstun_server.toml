@@ -1,0 +1,15 @@
+[server_args]
+port = 8080
+host = "127.0.0.1"
+log_level = "info"
+tun_interface_name = "tun0"
+external_interface_name = "eth0"
+config_file = "./httpstun_server.toml"
+interactive = true
+server_ip = "10.10.10.1"
+netmask = "255.255.255.0"
+
+[[clients]]
+name = "justin"
+token = "$argon2id$v=19$m=19456,t=2,p=1$MfN37TspRj4lERul2QEPNQ$HJK99yl+b1nt03dY2YI8wWU04b1AVVKpHsuLK47NUGU"
+ip = "10.10.10.2"
